@@ -10,3 +10,6 @@ class HomePageView(TemplateView): #inheriting code from TemplateView
 #create about class
 class AboutPageView(TemplateView): #inheriting code from TemplateView
     template_name = "about.html"
+
+class TestPageView(TemplateView):
+    template_name = "test.html"
